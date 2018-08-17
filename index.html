@@ -18,7 +18,7 @@
 <link href=maintenance/css/style.css rel=stylesheet>
 <link href=maintenance/css/responsive.css rel=stylesheet>
 <!--[if lt IE 9 ]>
-<script src=maintenance/js/modernizr-3.5.0.min.js></script><![endif]-->
+<script src=maintenance/js/modernizr-custom.js></script><![endif]-->
 <body class="bg-img body-bg"><!--[if lte IE 9]><p class=browserupgrade>You are using an <strong>outdated</strong>
     browser. Please <a href=https://browsehappy.com/ >upgrade your browser</a> to improve your experience and security.
 <![endif]-->
@@ -87,11 +87,13 @@
                                                     class=seconds></span><span>Seconds</span>
                                         </ul>
                                     </div>
-                                    <div class=subscribe-form><h4>Subscrive to our newsletter</h4>
-                                        <form id="subscribe-form" class=form-inline>
-                                            <input name=email class="form-control btn-rounded"
+                                    <div class=subscribe-form><h4>Subscribe to our newsletter</h4>
+                                        <form id="subscribe-form" class="form-inline clearfix">
+                                            <input name=subscribe_email id="subscribe_email" class="form-control btn-rounded"
                                                                        placeholder="Email Address" type=email>
                                             <button class="btn btn-cyan btn-round" type=submit>Submit</button>
+                                            <div class=success>Thanks for subscribing.</div>
+                                            <div class=error>E-mail must be valid </div>
                                         </form>
                                     </div>
                                 </div>
@@ -158,7 +160,10 @@
 </div>
 
 <!--[if lt IE 8]>
-<script src=maintenance/js/modernizr-3.5.0.min.js></script><![endif]-->
+<!-- send email google script -->
+<!--<script src="https://script.google.com/a/colorsailing.com/macros/s/AKfycbxByj0WUjo5rzFxPZkBn2FU49nf8nbd2sCcbJa2/exec"></script>-->
+<!---->
+<script src=maintenance/js/modernizr-custom.js></script><![endif]-->
 <script src=maintenance/js/jquery.min.js></script>
 <script src=maintenance/js/bootstrap.min.js></script>
 <script src=maintenance/js/owl.carousel.min.js></script>

@@ -392,6 +392,20 @@ textarea.form-control {
     color: #c11313;
 }
 
+#subscribe-form {
+	overflow: hidden;
+}
+#subscribe-form .success,
+#subscribe-form .error {
+	display: none;
+}
+#subscribe-form .success  {
+	color: #2b3950;
+}
+#subscribe-form .error  {
+	color: #c11313;
+}
+
 /* ------------------------------------------------------------------ */
 /* 3. HEADER
 /* ------------------------------------------------------------------ */
